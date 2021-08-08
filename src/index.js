@@ -5,3 +5,5 @@ import menuCard from './templates/carts.hbs';
 
 
 
+const createMenu = menuCard;
+
