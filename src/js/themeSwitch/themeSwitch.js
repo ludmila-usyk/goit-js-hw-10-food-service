@@ -4,7 +4,7 @@ export const switchTheme = () =>  {
         DARK: 'dark-theme',
       };
 
-    const themeSwithToggle = document.querySelector('#theme-switch-toggle');
+    const themeSwitchToggle = document.querySelector('#theme-switch-toggle');
     const body = document.querySelector('body');
     const savedTheme = localStorage.getItem('current-theme');
 
@@ -29,5 +29,5 @@ export const switchTheme = () =>  {
         }
       };
 
-      themeSwithToggle.addEventListener('change', onChangeTheme);
+      themeSwitchToggle.addEventListener('change', onChangeTheme);
 };
